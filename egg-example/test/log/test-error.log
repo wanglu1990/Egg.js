@@ -1,0 +1,161 @@
+2017-07-21 10:20:21,592 ERROR 15848 nodejs.EPERMError: Error watching file for changes: EPERM
+    at exports._errnoException (util.js:1018:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1420:11)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'D:\\Project\\egg-example\\app\\helper'
+name: 'EPERMError'
+pid: 15848
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 12:59:07,639 ERROR 15848 nodejs.ClusterClientNoResponseError: client no response in 1958450ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Project\egg-example\node_modules\cluster-client\lib\leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 15848
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 13:36:04,287 ERROR 15848 nodejs.ClusterClientNoResponseError: client no response in 1773018ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Project\egg-example\node_modules\cluster-client\lib\leader.js:72:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 15848
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 13:55:12,866 ERROR 15840 [-/127.0.0.1/-/39ms GET /user?name=fengmk2] nodejs.TypeError: this.service.get is not a function
+    at HomeController.user (D:\Project\egg-example\app\controller\home.js:10:39)
+    at next (native)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:65:19)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at D:\Project\egg-example\node_modules\co\index.js:54:5
+    at Object.co (D:\Project\egg-example\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\Project\egg-example\node_modules\co\index.js:118:63)
+    at next (D:\Project\egg-example\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\Project\egg-example\node_modules\co\index.js:69:7)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 15840
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 14:00:14,713 ERROR 3156 [-/127.0.0.1/-/3ms GET /user?name=fengmk2] nodejs.Error: mock user service error
+    at Proxy.mockServiceError (D:\Project\egg-example\node_modules\egg-mock\app\extend\application.js:94:13)
+    at Context.it (D:\Project\egg-example/test\app\service\user.test.js:47:11)
+    at callFn (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:348:21)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:340:7)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\co-mocha\lib\co-mocha.js:43:16)
+    at Runner.runTest (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:443:10)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:549:12
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:361:14)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:371:7
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:295:14)
+    at Immediate.<anonymous> (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:339:5)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+pid: 3156
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 14:15:14,508 ERROR 20116 [-/127.0.0.1/-/3ms GET /user?name=fengmk2] nodejs.Error: mock user service error
+    at Proxy.mockServiceError (D:\Project\egg-example\node_modules\egg-mock\app\extend\application.js:94:13)
+    at Context.it (D:\Project\egg-example/test\app\service\user.test.js:47:11)
+    at callFn (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:348:21)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:340:7)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\co-mocha\lib\co-mocha.js:43:16)
+    at Runner.runTest (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:443:10)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:549:12
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:361:14)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:371:7
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:295:14)
+    at Immediate.<anonymous> (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:339:5)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+pid: 20116
+hostname: LAPTOP-G6LID7MO
+
+2017-07-21 14:19:49,155 ERROR 6080 [-/127.0.0.1/-/3ms GET /user?name=fengmk2] nodejs.Error: mock user service error
+    at Proxy.mockServiceError (D:\Project\egg-example\node_modules\egg-mock\app\extend\application.js:94:13)
+    at Context.it (D:\Project\egg-example/test\app\service\user.test.js:47:11)
+    at callFn (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:348:21)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runnable.js:340:7)
+    at Test.Runnable.run (D:\Project\egg-example\node_modules\co-mocha\lib\co-mocha.js:43:16)
+    at Runner.runTest (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:443:10)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:549:12
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:361:14)
+    at D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:371:7
+    at next (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:295:14)
+    at Immediate.<anonymous> (D:\Project\egg-example\node_modules\egg-bin\node_modules\mocha\lib\runner.js:339:5)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+
+pid: 6080
+hostname: LAPTOP-G6LID7MO
+
