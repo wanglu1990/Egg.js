@@ -16,5 +16,10 @@ module.exports = appInfo => {
     errorLogName: 'test-error.log',
   };
 
+
+  // 配置需要的中间件，数组顺序即为中间件的加载顺序
+   config.middleware = [ 'hello' ];
+   config.hello = { text: 'hi, egg' };
+
   return config;
 };
