@@ -42,7 +42,7 @@ npm i egg-bin --save-dev
     npm test test/app/controller/home.test.js -t 5s
     ```
     
-    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/egg-example/doc/images/unittest-timeout-5s.png)
+    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/egg-example/doc/images/unittest-timeout-5s-1.png)
     
     or
     
