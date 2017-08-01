@@ -42,7 +42,7 @@ npm i egg-bin --save-dev
     npm test test/app/controller/home.test.js -t 5s
     ```
     
-    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/doc/images/unittest-timeout-5s.png)
+    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/egg-example/doc/images/unittest-timeout-5s.png)
     
     or
     
@@ -50,7 +50,7 @@ npm i egg-bin --save-dev
     npm test test/app/controller/home.test.js --timeout 5s
     ```
     
-    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/doc/images/unittest-timeout-5s-2.png)
+    ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/egg-example/doc/images/unittest-timeout-5s-2.png)
     
     
 6. 代码覆盖率
@@ -71,7 +71,7 @@ npm i egg-bin --save-dev
     npm run cov
     ```
     
-     ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/doc/images/unittest-run-cov.png)
+     ![avatar](https://raw.githubusercontent.com/wanglu1990/Egg.js/master/egg-example/doc/images/unittest-run-cov.png)
 
     
     
