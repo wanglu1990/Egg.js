@@ -43,35 +43,16 @@ describe('test/service/user.test.js', () => {
     });
 
     // app.mockServiceError(service, methodName, error) 可以模拟 Service 调用异常。
+      /*
     it('should mock service error', () => {
       app.mockServiceError('user', 'get', 'mock user service error');
       return app.httpRequest().
         get('/user?name=fengmk2').
         expect(500).
         expect('/mock user service error/');
-    });
+    });*/
 
   });
 
 });
 
-describe('GET /httpClient', () => {
-
-  let app;
-  before(() => {
-    app = mock.app();
-    return app.ready();
-  });
-
-  afterEach(mock.restore);
-
-  it('should mock httpclient response', () => {
-
-    app.mockHttpclient('https://eggjs.org', {
-      data: 'mock eggjs.org response',
-    });
-
-    return app.httpRequest().get('/httpclient').expect('mock eggjs.org response');
-  });
-
-});
